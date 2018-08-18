@@ -2,80 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <script>
-
-		/**
-         * https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
-		 * @param name
-		 * @param url
-		 * @returns {*}
-		 */
-		function getParameterByName(name, url) {
-			if (!url) url = window.location.href;
-			name = name.replace(/[\[\]]/g, '\\$&');
-			var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
-				results = regex.exec(url);
-			if (!results) return null;
-			if (!results[2]) return '';
-			return decodeURIComponent(results[2].replace(/\+/g, ' '));
-		}
-
-		function fromTemplate(templateSelector, data) {
-			let template = document.querySelector(templateSelector).innerHTML;
-			let populate = eval(`\n (data) => { try { return \` ${template} \`; }  catch(e) { console.log(\`TEMPLATE FAILED: ${templateSelector} \` , e); return ""; } }\n `);
-			return populate(data);
-        }
-
-        function sourceMissing() {
-			document.getElementsByTagName("body")[0].innerHTML = "expects URL parameter url<br>e.g. http://..../?url=https://raw.githubusercontent.com/afakes/resume/master/resume.json";
-        }
-
-        function getSourceData(templateID = "#body") {
-
-			let dataSourceURL = getParameterByName('url');
-            if (dataSourceURL == null) { sourceMissing(); return; }
-
-            fetch(dataSourceURL)
-                .then(
-                    function(response) {
-                        if (response.status === 200) {
-                            response.json().then(
-                                (data) => {
-									document.getElementsByTagName("body")[0].innerHTML = fromTemplate(templateID, data);
-								}
-                            );
-                        } else {
-							document.getElementsByTagName("body")[0].innerHTML = `<pre>FAILED to load data from ${dataSourceURL}</pre>`;
-                        }
-                    }
-                )
-                .catch(
-                	(err) => {
-						document.getElementsByTagName("body")[0].innerHTML = `<pre>${err.toString()}</pre>`;
-					}
-                );
-        }
-
-        function pre(data = {}, indent = 4) {
-			return "<pre>" + JSON.stringify(data, null, indent) + "</pre>";
-        }
-
-        function rows(templateID, data) {
-
-			console.log("data = ",data);
-
-			let result = "";
-			if (Array.isArray(data)) {
-				data.forEach( (element,key) => { result += fromTemplate(templateID, element, key ) + "\n"; } );
-            } else if (typeof data === "object") {
-				Object.keys(data).forEach( (key) => { result += fromTemplate(templateID, {"key": key, "value": data[key] }) + "\n"; } );
-			} else {
-				result = "row source unknown";
-            }
-			return result;
-        }
-    </script>
+    <title>Adam Fakes</title>
+    <script src="resumeTemplateBuilder.js" ></script>
 </head>
 
 <body onload="getSourceData()">
@@ -97,11 +25,17 @@
 
     <h1>${data.academic.title}</h1>
     <ul>
-        ${pre(data.academic)}
+        ${rows('#publications', data.academic.list)}</ul>
     </ul>
 
     <h1>presence</h1>
     <ul>${rows('#presence', data.presence)}</ul>
+
+    <h1>skills</h1>
+    <ul>${rows('#skills', data.skills)}</ul>
+
+    <h1>employment</h1>
+    <ul>${rows('#employment', data.employment)}</ul>
 
 </template>
 
@@ -114,4 +48,23 @@
 <template id="publications">
     <li><span style="font-family: monospace">${data}</span></li>
 </template>
+<template id="skills">
+    <li><span style="font-family: monospace">
+        ${"#".repeat(data.level)}${"_".repeat(6-data.level)}
+    </span> - ${data.name}</li>
+</template>
+<template id="employment">
+    <li>
+        <h2>${data.title} (${data.organisation})</h2>
+        <h3>${data.location}</h3>
+        <p>${data.date.from} ==> ${data.date.to}</p>
+        <ul>
+            ${rows('#employment_points', data.points)}
+        </ul>
+    </li>
+</template>
+<template id="employment_points">
+    <li><span style="font-family: monospace">${data}</span></li>
+</template>
+
 </html>
