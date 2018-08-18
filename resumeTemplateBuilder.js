@@ -27,7 +27,7 @@ function sourceMissing() {
 
 function getSourceData(templateID = "#body") {
 
-	let templateURL = "basic.template.html";
+	let templateURL = getParameterByName('template');
 
 	fetch(templateURL)
 	.then(
@@ -41,7 +41,7 @@ function getSourceData(templateID = "#body") {
 
 						document.getElementsByTagName("html")[0].appendChild(document.createRange().createContextualFragment(templateText));
 
-						let dataSourceURL = getParameterByName('url');
+						let dataSourceURL = getParameterByName('data');
 						if (dataSourceURL == null) { sourceMissing(); return; }
 
 						fetch(dataSourceURL)

@@ -1,0 +1,87 @@
+<style>
+    h1 {
+        color: darkblue;
+        background-color: lavender;
+        font-size: 14pt;
+        font-family: Arial;
+        text-transform: uppercase;
+        padding: 5px;
+    }
+    .publication {
+        font-size: 10pt;
+        font-family: monospace;
+        margin-bottom: 5px;
+    }
+    .about {
+        font-size: 11pt;
+        font-family: "Times New Roman";
+        padding: 10px;
+    }
+</style>
+<template id="body">
+
+    <table width="90%">
+        <tr >
+            <td width="30%" valign="top">
+                <h1>Resume of ${data.name}</h1>
+                <ul>
+                    <li>${data.email}</li>
+                    <li>${data.phone}</li>
+                </ul>
+                <p class="about">${data.about}</p>
+
+                <h1>presence</h1>
+                <ul>${rows('#presence', data.presence)}</ul>
+
+                <h1>EDUCATION</h1>
+                ${rows('#education', data.education)}
+
+                <h1>skills</h1>
+                ${rows('#skills', data.skills)}
+
+                <h1>${data.academic.title}</h1>
+                <ul>
+                    ${rows('#publications', data.academic.list)}</ul>
+                </ul>
+
+
+            </td>
+            <td>
+                <h1>employment</h1>
+                <ul>${rows('#employment', data.employment)}</ul>
+
+            </td>
+        </tr>
+    </table>
+
+
+
+
+
+</template>
+
+<template id="education">
+    <p><span style="font-family: monospace">${data.date}</span> - ${data.name}</p>
+</template>
+<template id="presence">
+    <li><span style="font-family: monospace">${data.key}</span> - ${data.value}</li>
+</template>
+<template id="publications">
+    <li class="publication">${data}</li>
+</template>
+<template id="skills">
+    <span style="font-family: monospace">${"#".repeat(data.level)}${"_".repeat(6-data.level)}</span> - ${data.name}<br>
+</template>
+<template id="employment">
+    <li>
+        <h2>${data.title} (${data.organisation})</h2>
+        <h3>${data.location}</h3>
+        <p>${data.date.from} ==> ${data.date.to}</p>
+        <ul>
+            ${rows('#employment_points', data.points)}
+        </ul>
+    </li>
+</template>
+<template id="employment_points">
+    <li><span style="font-family: monospace">${data}</span></li>
+</template>
