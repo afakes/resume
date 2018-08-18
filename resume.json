@@ -3,7 +3,6 @@
   "email": "adam@datavi.co",
   "phone": "0401-302-243",
   "about": "I have over 20 years experience as a Software Engineer, Scientist, GeoSpatial Analyst, and more recently, a DevOps Engineer, for government bodies, technology companies, SMEs, university, scientific & gaming organisations. I am well qualified with a B.Sc comp-sci, and industry achievements. I have a unique ability to recognise systems, data structures and dependencies to design, build, integrate & automate business processes within the Information Technology space.",
-
   "education": [
     {
       "date":"2012",
@@ -25,7 +24,7 @@
   },
   "academic": {
     "title": "CO-AUTHORED JOURNAL ARTICLES",
-    "points": [
+    "list": [
       "Leblanc, M. et.al. (2011), Groundwater change in the Murray basin from long-term in situ monitoring and GRACE estimates Climate change effects on groundwater resources",
       "Leblanc, M. et.al. (2009), Basin-scale, integrated observations of the early 21st century multi-year drought in southeast Australia, Water Resour. Res., 45",
       "Bohnet, I. et.al. (2008), 'An integrated modelling framework to explore land use change scenarios in collaboration with communities and end-users', in International Conference Impact Assessment of Land Use Changes, Berlin, Germany."
