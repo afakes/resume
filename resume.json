@@ -1,7 +1,12 @@
 {
   "name": "Adam Fakes",
-  "email": "adam@datavi.co",
-  "phone": "0401-302-243",
+  "presence": {
+    "email": "adam@datavi.co",
+    "phone": "0401-302-243",
+    "LinkedIn": "https://www.linkedin.com/in/adamfakes",
+    "GitHub": "https://github.com/afakes/",
+    "Portfolio": "http://adamfakes.com/"
+  },
   "about": "I have over 20 years experience as a Software Engineer, Scientist, GeoSpatial Analyst, and more recently, a DevOps Engineer, for government bodies, technology companies, SMEs, university, scientific & gaming organisations. I am well qualified with a B.Sc comp-sci, and industry achievements. I have a unique ability to recognise systems, data structures and dependencies to design, build, integrate & automate business processes within the Information Technology space.",
   "education": [
     {
@@ -17,11 +22,6 @@
       "name": "Diploma of Computing, Newcastle University"
     }
   ],
-  "presence": {
-    "LinkedIn": "https://www.linkedin.com/in/adamfakes",
-    "GitHub": "https://github.com/afakes/",
-    "Portfolio": "http://adamfakes.com/"
-  },
   "academic": {
     "title": "CO-AUTHORED JOURNAL ARTICLES",
     "list": [
@@ -205,10 +205,18 @@
         "Developed UNIX to Lotus Notes mail routing agents"
       ]
     },
-    {"date": {"from": "1999", "to": "2000"},  "title": "Technical Analyst",            "organisation": "IBM Global Services", "location": "Sydney, Australia",   "points": []},
-    {"date": {"from": "1998", "to": "1999"},  "title": "Payroll Support Team Leader",  "organisation": "IBM Global Services", "location": "Sydney, Australia",   "points": []},
-    {"date": {"from": "1997", "to": "1998"},  "title": "Internet Support Team Leader", "organisation": "IBM Global Services", "location": "Ballarat, Australia", "points": []},
-    {"date": {"from": "1995", "to": "1997"},  "title": "Internet Helpdesk Consultant", "organisation": "IBM Global Services", "location": "Sydney, Australia",   "points": []}
+    {
+      "date": {"from": "1995", "to": "2000"},
+      "title": "Various",
+      "organisation": "IBM Global Services",
+      "location": "Sydney, Australia",
+      "points": [
+        "1999 - Technical Analyst",
+        "1998 - Payroll Support Team Leader",
+        "1997 - Internet Support Team Leader",
+        "1995 - Internet Helpdesk Consultant"
+      ]
+    }
   ]
 }
 

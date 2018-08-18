@@ -36,9 +36,6 @@ function getSourceData(templateID = "#body") {
 
 				templateResponse.text().then(
 					(templateText) => {
-						console.log("templateText = ",templateText);
-						//document.getElementsByTagName("body")[0].innerHTML = fromTemplate(templateID, data); }
-
 						document.getElementsByTagName("html")[0].appendChild(document.createRange().createContextualFragment(templateText));
 
 						let dataSourceURL = getParameterByName('data');
@@ -75,6 +72,23 @@ function getSourceData(templateID = "#body") {
 function pre(data = {}, indent = 4) {
 	return "<pre>" + JSON.stringify(data, null, indent) + "</pre>";
 }
+
+function icon(name = null, defaultValue = `<i class="material-icons email">keyboard_arrow_right</i>`) {
+	if (name == null) {return defaultValue;}
+	name = name.toLocaleLowerCase();
+
+	let icons = document.querySelector(`template#icons`);
+	if (icons == null) {return defaultValue;}
+
+	let div = document.createElement('div');
+	div.appendChild(document.createRange().createContextualFragment(icons.innerHTML));
+
+	let icon = div.querySelector(`.${name}`);
+	if (icon == null) {return defaultValue;}
+
+	return icon.outerHTML;
+}
+
 
 function rows(templateID, data) {
 
