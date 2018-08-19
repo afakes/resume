@@ -64,23 +64,23 @@
   "projects": [
     {
       "title": "GRACE",
-      "image": "https://drive.google.com/uc?id=1sL3fmSsOfY7NG9BuwCn4AU1MAEKFLC7k",
+      "image": "https://raw.githubusercontent.com/afakes/resume/master/images/graceTN.png",
       "text": "Gravity Recovery And Climate Experiment",
       "link": "https://www.nasa.gov/mission_pages/Grace/index.html"
     },
     {
       "title": "Sap flow monitoring",
-      "image": "https://drive.google.com/uc?id=1mmVmtOb_YJGwfOo9js0fBK2OaN-n1vRY",
+      "image": "https://raw.githubusercontent.com/afakes/resume/master/images/SapFlowMonitoringTN.PNG",
       "text": "Using Heat Field deformation to track sap flow inside living trees"
     },
     {
       "title": "Software Engineering",
-      "image": "https://drive.google.com/uc?id=1-yUwLzS5Vl7VMMnZl0TZWOvmqzoMXoSx",
+      "image": "https://raw.githubusercontent.com/afakes/resume/master/images/SoftwareDevelopment.png",
       "text": "Building software and systems"
     },
     {
       "title": "Climate monitoring",
-      "image": "https://drive.google.com/uc?id=1GOSLXkho34sB8XZlOg_z6QmiJag2z2Y7",
+      "image": "https://raw.githubusercontent.com/afakes/resume/master/images/ClimateMonitoringTN.JPG",
       "text": ""
     }
   ],
