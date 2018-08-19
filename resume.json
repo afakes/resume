@@ -1,13 +1,19 @@
 {
   "name": "Adam Fakes",
+  "title": "Software Engineer",
+  "pagetitle": "Adam Fakes - Software Engineer",
+  "tagline": "Scientist, GeoSpatial Analyst, and DevOps Engineer",
+  "avatar": "https://avatars0.githubusercontent.com/u/1169102?v=4",
   "presence": {
     "email": "adam@datavi.co",
     "phone": "0401-302-243",
-    "LinkedIn": "https://www.linkedin.com/in/adamfakes",
-    "GitHub": "https://github.com/afakes/",
+    "address": "Melbourne, VIC, Australia",
+    "linkedin": "https://www.linkedin.com/in/adamfakes",
+    "github": "https://github.com/afakes/",
     "Portfolio": "http://adamfakes.com/"
   },
   "about": "I have over 20 years experience as a Software Engineer, Scientist, GeoSpatial Analyst, and more recently, a DevOps Engineer, for government bodies, technology companies, SMEs, university, scientific & gaming organisations. I am well qualified with a B.Sc comp-sci, and industry achievements. I have a unique ability to recognise systems, data structures and dependencies to design, build, integrate & automate business processes within the Information Technology space.",
+  "story" : "A transformative experience that drove me as; a person, an engineer, an environmentalist, a field researcher, a spatial analyst, and investigator and a scientist, was:   As, a researcher for the Hydrology department of James Cook University, I supported a study   into 'ground-water change in the Murray-Darling basin'. At the time, I was an undergraduate   student, and a commercial software developer.   I began this project, just for the technology, and 3am coding sessions. The field work, camping,   hydrology, and water science were the extras, but soon became the amazing, eye opening and   mentally stimulating activities.   Five years later: we complete the project. I attained a BSc comp-sci.; and in-depth  understanding for; people, team-work, remote locations, geospatial statistics, environment  management, climate change, catchment hydrology, and technology, and 3 co-authored published  peer reviewed articles.",
   "education": [
     {
       "date":"2012",
@@ -55,9 +61,44 @@
     { "level": 4, "name": "Mentoring Masters & PhD students"},
     { "level": 5, "name": "Scientific research co-authored journal papers"}
   ],
+  "projects": [
+    {
+      "title": "GRACE",
+      "image": "https://drive.google.com/uc?id=1sL3fmSsOfY7NG9BuwCn4AU1MAEKFLC7k",
+      "text": "Gravity Recovery And Climate Experiment",
+      "link": "https://www.nasa.gov/mission_pages/Grace/index.html"
+    },
+    {
+      "title": "Sap flow monitoring",
+      "image": "https://drive.google.com/uc?id=1mmVmtOb_YJGwfOo9js0fBK2OaN-n1vRY",
+      "text": "Using Heat Field deformation to track sap flow inside living trees"
+    },
+    {
+      "title": "Software Engineering",
+      "image": "https://drive.google.com/uc?id=1-yUwLzS5Vl7VMMnZl0TZWOvmqzoMXoSx",
+      "text": "Building software and systems"
+    },
+    {
+      "title": "Climate monitoring",
+      "image": "https://drive.google.com/uc?id=1GOSLXkho34sB8XZlOg_z6QmiJag2z2Y7",
+      "text": ""
+    }
+  ],
+  "videos": [
+    {
+      "title": "Wireless Sensors - Hack Day",
+      "url": "https://www.youtube.com/embed/Iwj-KSV_4j8",
+      "text": ""
+    },
+    {
+      "title": "Tabcorp - Hack Day",
+      "url": "https://www.youtube.com/embed/L1w0cY-VDQ0",
+      "text": ""
+    }
+  ],
   "employment": [
     {
-      "date": {"from": "2017", "to": "today"},
+      "date": {"from": "2017", "to": "present"},
       "title": "DevOps Engineer",
       "organisation": "TABCorp",
       "location": "Melbourne, Australia",
@@ -100,7 +141,7 @@
       ]
     },
     {
-      "date": {"from": "2013", "to": "2013"},
+      "date": {"from": "2013", "to": ""},
       "title": "Geospatial Software Engineer",
       "organisation": "Department of Primary Industries",
       "location": "Melbourne, Australia",
@@ -112,7 +153,7 @@
       ]
     },
     {
-      "date": {"from": "2013", "to": "2013"},
+      "date": {"from": "2013", "to": ""},
       "title": "Geospatial Analyst (Human Footprint Project)",
       "organisation": "James Cook University",
       "location": "Cairns, Australia",
@@ -174,7 +215,7 @@
       ]
     },
     {
-      "date": {"from": "2003", "to": "2003"},
+      "date": {"from": "2003", "to": ""},
       "title": "Senior Developer",
       "organisation": "Eli Lilly",
       "location": "Sydney, Australia",
@@ -196,7 +237,7 @@
       ]
     },
     {
-      "date": {"from": "2000", "to": "2000"},
+      "date": {"from": "2000", "to": ""},
       "title": "Senior Developer",
       "organisation": "David Jones Ltd",
       "location": "Sydney, Australia",
@@ -219,6 +260,3 @@
     }
   ]
 }
-
-
-
