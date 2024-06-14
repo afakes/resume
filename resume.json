@@ -1,262 +1,353 @@
-{
-  "name": "Adam Fakes",
-  "title": "Software Engineer & Scientist",
-  "pagetitle": "Adam Fakes - Software Engineer",
-  "tagline": "Scientist, GeoSpatial Analyst, and DevOps Engineer",
-  "avatar": "https://avatars0.githubusercontent.com/u/1169102?v=4",
-  "presence": {
-    "email": "adam@datavi.co",
-    "phone": "0401-302-243",
-    "address": "Melbourne, VIC, Australia",
-    "linkedin": "https://www.linkedin.com/in/adamfakes",
-    "github": "https://github.com/afakes/",
-    "Portfolio": "http://adamfakes.com/"
+[
+  {    
+    "type": "page",
+    "heading": "Adam Fakes",
+    "summary": "Data Science | Data Engineering | Software Engineering | Geospatial analysis",
+    "image":   "https://avatars0.githubusercontent.com/u/1169102?v=4"
   },
-  "about": "I have over 20 years experience as a Software Engineer, Scientist, GeoSpatial Analyst, and more recently, a DevOps Engineer, for government bodies, technology companies, SMEs, university, scientific & gaming organisations. I am well qualified with a B.Sc comp-sci, and industry achievements. I have a unique ability to recognise systems, data structures and dependencies to design, build, integrate & automate business processes within the Information Technology space.",
-  "story" : "A transformative experience that drove me as; a person, an engineer, an environmentalist, a field researcher, a spatial analyst, and investigator and a scientist, was:   As, a researcher for the Hydrology department of James Cook University, I supported a study   into 'ground-water change in the Murray-Darling basin'. At the time, I was an undergraduate   student, and a commercial software developer.   I began this project, just for the technology, and 3am coding sessions. The field work, camping,   hydrology, and water science were the extras, but soon became the amazing, eye opening and   mentally stimulating activities.   Five years later: we complete the project. I attained a BSc comp-sci.; and in-depth  understanding for; people, team-work, remote locations, geospatial statistics, environment  management, climate change, catchment hydrology, and technology, and 3 co-authored published  peer reviewed articles.",
-  "education": [
-    {
-      "date":"2012",
-      "name": "B.Sc. comp-sci, James Cook University"
-    },
-    {
-      "date":"2003",
-      "name": "Principle Certified Lotus Professional"
-    },
-    {
-      "date":"1994",
-      "name": "Diploma of Computing, Newcastle University"
-    }
-  ],
-  "academic": {
-    "title": "CO-AUTHORED JOURNAL ARTICLES",
-    "list": [
-      "Leblanc, M. et.al. (2011), Groundwater change in the Murray basin from long-term in situ monitoring and GRACE estimates Climate change effects on groundwater resources",
-      "Leblanc, M. et.al. (2009), Basin-scale, integrated observations of the early 21st century multi-year drought in southeast Australia, Water Resour. Res., 45",
-      "Bohnet, I. et.al. (2008), 'An integrated modelling framework to explore land use change scenarios in collaboration with communities and end-users', in International Conference Impact Assessment of Land Use Changes, Berlin, Germany."
+  {
+    "type": "contact",
+    "title": "contact",
+    "articles": [
+      {
+        "key_value": [
+          {"key":"email",       "value":"adam@datavi.co" },
+          {"key":"phone",       "value":"0401-302243" },
+          {"key":"physical",    "value":"Melbourne, Victoria, Australia" },
+          {"key":"LinkedIn",    "value":"https://www.linkedin.com/in/adamfakes" },
+          {"key":"github",      "value":"https://github.com/afakes/" },
+          {"key":"portfolio",   "value":"https://adamfakes.my.canva.site/" },
+          {"key":"website",     "value":"https://adamfakes.com" },
+          {"key":"google meet", "value":"https://meet.google.com/omv-aizq-vrj" }
+        ]
+      }
     ]
   },
-  "skills": [
-    { "level": 4, "name": "Amazon Web Services (AWS)"},
-    { "level": 3, "name": "AWS CloudFormation Lambda, serverless"},
-    { "level": 4, "name": "AWS RDS PostgreSQL, MySQL, elastic-cache"},
-    { "level": 3, "name": "DevOps - CI/CD pipelines"},
-    { "level": 4, "name": "API Development - REST, SOAP"},
-    { "level": 5, "name": "NodeJS, Javascript + ES6"},
-    { "level": 6, "name": "PHP, Apache, MySQL"},
-    { "level": 5, "name": "CSS3, HTML5, jQuery"},
-    { "level": 6, "name": "XML + Xslt - presented public lectures"},
-    { "level": 5, "name": "Payment gateways Adyen, PayPal, Visa"},
-    { "level": 5, "name": "Database architecture"},
-    { "level": 3, "name": "Unix infrastructure management"},
-    { "level": 5, "name": "Code management git, svn"},
-    { "level": 5, "name": "Geospatial analysis ArcGIS, QGIS"},
-    { "level": 5, "name": "Statistical analysis linear + geo-spatial"},
-    { "level": 4, "name": "Systems Analysis - constraint recognition"},
-    { "level": 3, "name": "Integration - data engineering"},
-    { "level": 4, "name": "Continuous delivery pipelines"},
-    { "level": 5, "name": "AGILE Development methodologies"},
-    { "level": 4, "name": "Leadership small & offsite teams"},
-    { "level": 5, "name": "Teamwork"},
-    { "level": 4, "name": "Mentoring Masters & PhD students"},
-    { "level": 5, "name": "Scientific research co-authored journal papers"}
-  ],
-  "projects": [
-    {
-      "title": "GRACE",
-      "image": "https://raw.githubusercontent.com/afakes/resume/master/images/graceTN.png",
-      "text": "Gravity Recovery And Climate Experiment",
-      "link": "https://www.nasa.gov/mission_pages/Grace/index.html"
-    },
-    {
-      "title": "Sap flow monitoring",
-      "image": "https://raw.githubusercontent.com/afakes/resume/master/images/SapFlowMonitoringTN.PNG",
-      "text": "Using Heat Field deformation to track sap flow inside living trees"
-    },
-    {
-      "title": "Software Engineering",
-      "image": "https://raw.githubusercontent.com/afakes/resume/master/images/SoftwareDevelopment.png",
-      "text": "Building software and systems"
-    },
-    {
-      "title": "Climate monitoring",
-      "image": "https://raw.githubusercontent.com/afakes/resume/master/images/ClimateMonitoringTN.JPG",
-      "text": ""
-    }
-  ],
-  "videos": [
-    {
-      "title": "Wireless Sensors - Hack Day",
-      "url": "https://www.youtube.com/embed/Iwj-KSV_4j8",
-      "text": ""
-    },
-    {
-      "title": "Tabcorp - Hack Day",
-      "url": "https://www.youtube.com/embed/L1w0cY-VDQ0",
-      "text": ""
-    }
-  ],
-  "employment": [
-    {
-      "date": {"from": "2017", "to": "present"},
-      "title": "DevOps Engineer",
-      "organisation": "TABCorp",
-      "location": "Melbourne, Australia",
-      "points": [
-        "Developed AWS cloud-formation templates to construct; API gateway + ServerLess Lambda ETL functions providing risk & fraud detection data streams to SaaS platform, SalesForce",
-        "Provided DevOps insights & infrastructure development to interstate, UK, and South American based teams"
-      ]
-    },
-    {
-      "date": {"from": "2015", "to": "2017"},
-      "title": "Senior Software Engineer",
-      "organisation": "TABCorp",
-      "location": "Melbourne, Australia",
-      "points": [
-        "Architected & developed a credit card Payment gateway for sunbets.co.uk, providing secure and traceable transactions, integrating with anti-money laundering (AML) systems. After 6 months of operation the gateway had transferred over £60,000,000 with an error of under £10,000",
-        "Developed a number of new features & maintenance fixes, in PHP, for Luxbet.com.au gaming platform, facilitating customer retention, system stability, and new products",
-        "Provided geo-spatial data analysis for retail teams, supporting payments to vendors, via a novel approach to non-traditional venues"
-      ]
-    },
-    {
-      "date": {"from": "2014", "to": "2015"},
-      "title": "Software Engineer",
-      "organisation": "SMSGlobal",
-      "location": "Melbourne, Australia",
-      "points": [
-        "Developed PHP integrations between the SMS delivery platform and 3rd party REST APIs, including Xero accounting, and Zapier.com platform",
-        "Redeveloped a single server LAMP application into a multi-tier MVC application, hosted across AWS, implementing SSL hand-off via virtual load balancers to multiple EC2 instances, with attached EBS volumes and, RDS (MySQL) database",
-        "Technical Lead for the integration of the Akamai content network into the SMSGlobal front-end"
-      ]
-    },
-    {
-      "date": {"from": "2013", "to": "2014"},
-      "title": "Technology Manager",
-      "organisation": "Greens Party - Victoria ",
-      "location": "Melbourne, Australia",
-      "points": [
-        "Developed a ETL adaptor in PHP to integrate the NationBuilder SaaS platform to the Greens internal Drupal system",
-        "Provided Unix server administration, including local & remote email server management, SPAM & anti-virus detection",
-        "Transitioned the Victorian office to an off-site hosted email and shared files service"
-      ]
-    },
-    {
-      "date": {"from": "2013", "to": ""},
-      "title": "Geospatial Software Engineer",
-      "organisation": "Department of Primary Industries",
-      "location": "Melbourne, Australia",
-      "points": [
-        "Redesigned and coded Oracle stored-procedures into PHP, facilitating the transformation of Excel spreadsheets into Oracle tables",
-        "Modified MS-Windows specific code, with ODBC Microsoft SQL Server connections to execute on Linux and Oracle backend",
-        "Provided significant improvements to the Exploration Licensing user interface, with CSS, HTML & jQuery, including front-end error handling & validation",
-        "Integrated a new geo-spatial user interface to the Exploration Licensing system, providing a mapping view of licensee locations"
-      ]
-    },
-    {
-      "date": {"from": "2013", "to": ""},
-      "title": "Geospatial Analyst (Human Footprint Project)",
-      "organisation": "James Cook University",
-      "location": "Cairns, Australia",
-      "points": [
-        "Researched, acquired, analysed, & processed  geo-spatial data sets for the Human-Footprint, and Human Influence indices projects"
-      ]
-    },
-    {
-      "date": {"from": "2011", "to": "2013"},
-      "title": "Software Engineer (eResearch)",
-      "organisation": "James Cook University",
-      "location": "Cairns, Australia",
-      "points": [
-        "Applied the principles of AGILE & SDLC to design & develop a RESTful application for the consumption & computation of biological & environmental data producing interactive species ranges maps against various Climate Change scenarios",
-        "Engineered various pieces of PHP, Bash, C++ code to interface with the High performance compute clusters"
-      ]
-    },
-    {
-      "date": {"from": "2009", "to": "2011"},
-      "title": "Scientific Research (Hydrology, Ecology)",
-      "organisation": "James Cook University",
-      "location": "Cairns, Australia",
-      "points": [
-        "Developed a single database, standardising Australian State groundwater readings, while integrating additional environmental data from 3rd  party scientific and non-scientific global data sources, including NASA, European Space Agency and GRACE gravity anomaly data. This project required the development of Linux, PHP and MySQL code to perform ETL, validation & bounds checking; with linear, geo-spatial and time-series statistical analysis",
-        "Analysis of geographic and satellite remote sensing data-sets to produce geographic datasets, cartographic imagery, and figures for journal article publications",
-        "Principal investigator on a Queensland Cyber Infrastructure Foundation (QCIF) project to build a 'Smart Water Sensor Network', implementing the Sensor Mark-up Language on Apache, embedded hardware & sensor packages. Deploying a beta test site on a Queensland outback station"
-      ]
-    },
-    {
-      "date": {"from": "2006", "to": "2009"},
-      "title": "Software Engineer",
-      "organisation": "CSIRO",
-      "location": "Cairns, Australia",
-      "points": [
-        "Developed the 'The Landscapes Toolkit' MS-Windows desktop application, using C# & .Net. Supporting the ability to plug-in models, via an implementation of Lazy-load software pattern",
-        "Designed and developed geo-spatial & environmental modelling tools, for inclusion in a Scientific Model Integration environment, 'The Landscapes Toolkit'",
-        "Presented a public lecture on XML, titled 'eXciting Markup Language'"
-      ]
-    },
-    {
-      "date": {"from": "2004", "to": "2006"},
-      "title": "Senior Developer",
-      "organisation": "Waste Service NSW",
-      "location": "Sydney, Australia",
-      "points": [
-        "Creation and redesign of Crystal Reports, including integration with .Net, Lotus Notes & Microsoft Reporting Services",
-        "Administration of user space, Domino cluster email services, including spam and virus filtering,  on Windows 2003 and Citrix servers management",
-        "Desktop support for 300+ users across 14 sites, including fault analysis, recording, and repair"
-      ]
-    },
-    {
-      "date": {"from": "2003", "to": "2004"},
-      "title": "Senior Developer",
-      "organisation": "Salvation Army",
-      "location": "Sydney, Australia",
-      "points": [
-        "Redesigned and redeveloped an existing multi-site Lotus Notes client application into a centralised web-browser application",
-        "Designed a warehousing system to manage the specific physical item storage needs of the Army"
-      ]
-    },
-    {
-      "date": {"from": "2003", "to": ""},
-      "title": "Senior Developer",
-      "organisation": "Eli Lilly",
-      "location": "Sydney, Australia",
-      "points": [
-        "Developed new features, and performed code maintenance to an existing Lotus Notes 'Purchasing / Procurement system'",
-        "Developed an ETL adaptor between an AS400 and Lotus Notes / Domino database"
-      ]
-    },
-    {
-      "date": {"from": "2000", "to": "2003"},
-      "title": "Senior Developer",
-      "organisation": "IBM Global Services",
-      "location": "Sydney, Australia",
-      "points": [
-        "Developed a Lotus Notes, version control configuration management & deployment tool",
-        "Collaborated with 3rd party contractors to develop a Lotus Notes password encryption transfer agent, providing a smooth user transition to Oracle",
-        "Designed & developed a Lotus Notes, Investment Management application to replace  a large number complex financial spreadsheets",
-        "As a member of the Business Continuity team, collaborated with MLC & IBM to create & execute disaster recovery plans & procedures for mlc.com.au"
-      ]
-    },
-    {
-      "date": {"from": "2000", "to": ""},
-      "title": "Senior Developer",
-      "organisation": "David Jones Ltd",
-      "location": "Sydney, Australia",
-      "points": [
-        "Designed, prototyped & developed a Lotus Notes mail archiving system, using near online and offline storage mediums",
-        "Developed UNIX to Lotus Notes mail routing agents"
-      ]
-    },
-    {
-      "date": {"from": "1995", "to": "2000"},
-      "title": "Various",
-      "organisation": "IBM Global Services",
-      "location": "Sydney, Australia",
-      "points": [
-        "1999 - Technical Analyst",
-        "1998 - Payroll Support Team Leader",
-        "1997 - Internet Support Team Leader",
-        "1995 - Internet Helpdesk Consultant"
-      ]
-    }
-  ]
-}
+  {
+    "type": "summary",
+    "title": "SUMMARY",
+    "articles": [
+      { 
+        "summary":    "make it work, make it better",
+        "points": [
+          "I have over 25 years experience as a data engineer, cloud engineer, software engineer, scientist, geo-spatial analyst, for government bodies, technology companies, small to medium enterprises, university, scientific & gaming organisations. ",
+          "I am well qualified with industry achievements and a Bachelor of science, with majors in computer science, environmental science and hydrology. He has a unique ability to recognise systems, data structures and dependencies to design, build, integrate and automate business processes. ",
+          "I have contributed to the success of projects in government entities, technology firms, universities, scientific institutions, and gaming companies. Coupled with a Bachelor's degree in Computer Science and a proven track record of accomplishments in the industry. I am skilled at systems architecture, data structures, inter-dependencies identification, software and data engineering",
+          "My expertise lies in designing, building, integrating, and automating complex systems with a unique blend of precision, innovation and creativity."
+        ]
+      }
+    ]
+  },
+  
+  {
+    "type": "education",
+    "title": "EDUCATION",
+    "articles": [
+      {
+        "heading":     "Bachelor of Science: Computer science + Environmental science",
+        "subheading":  "James Cook University (2012)",
+        "summary":     "Computer Science, Environmental Science, Hydrology, Geospatial Analysis"
+      },
+      {
+        "heading":     "Diploma of Computing",
+        "subheading":  "Newcastle University (1994)",
+        "summary":     "Database design, programming"
+      }
+    ] 
+  },
+
+  {
+    "type": "skills",
+    "title": "KEY SKILLS",
+    "articles": [
+      {
+        "heading": "LEADERSHIP",
+        "summary": "team leadership | stakeholder management | mentoring",
+        "key_value": [
+          {"key": "13", "value":"Mentoring Developers, Masters & PhD students"},
+          {"key":  "5", "value":"Commercial Stakeholder engagement"},
+          {"key":  "5", "value":"AGILE Development + Project management"},
+          {"key":  "5", "value":"Management & Leadership"}
+        ]
+      },
+      {
+        "heading": "DATA ENGINEERING",
+        "summary": "orchestration | data engineering | governance | statistics | modelling | integration",
+        "key_value": [
+          {"key":"18", "value":"python development"},
+          {"key":"16", "value":"database - schema design, development, administration, query tuning "},
+          {"key":"16", "value":"geo-spatial analysis (ArcGIS, QGIS, remote-sensing)"},
+          {"key":"12", "value":"mysql - schema design & development "},
+          {"key":"12", "value":"API Development - REST (AWS API Gateway, Google Functions, Apache)"},
+          {"key": "5", "value":"PostgreSQL - schema design & development "},
+          {"key":"11", "value":"data management - collection, auditing, governance, storage"},
+          {"key":"10", "value":"AWS api-gateway, lambda, ecs + ecr "},
+          {"key": "6", "value":"data-pipeline orchestration – Jenkins "},
+          {"key": "8", "value":"Statistical analysis linear + geo-spatial"},
+          {"key": "8", "value":"pipelines orchestration, github-actions, jenkins "},
+          {"key": "4", "value":"Google Compute (GCP), storage, create & deploy functions, security"},
+          {"key": "4", "value":"geo-spatial analysis (multi-spectral remote-sensing)"},
+          {"key": "3", "value":"data visualisation (aws quicksight, power-bi, looker data studio)"},
+          {"key": "2", "value":"XML, Xslt, SOAP, SensorML, presented public lectures"},
+          {"key": "3", "value":"databricks, notebook creation, data management, heterogeneous data access"},
+          {"key": "1", "value":"data-pipeline orchestration – Airflow DAG development"}  
+        ]
+      },
+      {
+        "heading": "SOFTWARE ENGINEERING",
+        "summary": "computation modelling | machine learning | software engineering | code development | refactoring | deep-learning",
+        "key_value": [
+          {"key": "20", "value":"Software Development, Software Engineering"},
+          {"key": "18", "value":"Python Development"},
+          {"key": "15", "value":"Python statistics (sk-learn)"},
+          {"key": "15", "value":"Code management git, github, svn, peer review, bitbucket"},
+          {"key": "14", "value":"Machine Learning - Clustering, Predictive, Modelling  e.g. ARIMA "},
+          {"key": "12", "value":"API Development - REST (AWS API Gateway, Google Functions, Apache"},
+          {"key": "12", "value":"Python geospatial data"},
+          {"key":  "9", "value":"PHP Development"},
+          {"key":  "2", "value":"Payment gateways Adyen, PayPal, Visa"},
+          {"key":  "3", "value":"C++ re-engineering"}
+        ]
+      },
+      {
+        "heading": "WEB DEVELOPMENT",
+        "summary": "user interface design | user interface development | responsive layout | api integration",
+        "key_value": [
+          {"key": "18", "value":"Web development, CSS3, HTML5, jQuery"},
+          {"key": "18", "value":"NodeJS, JavaScript, ECMAScript Development"},
+          {"key":  "9", "value":"Linux Web Application development (Apache, MySQL, Python, PHP)"},
+          {"key":  "6", "value":"Apache configuration and Management"}
+        ]
+      },
+      {
+        "heading": "INFRASTRUCTURE",
+        "summary": "cloud engineering | api development | security | authentication | authorisation",
+        "key_value": [
+          {"key": "11", "value":"Amazon Web Services (AWS)"},
+          {"key": "13", "value":"Linux - RHEL, Debain, Ubuntu, systems administration (daemons & services, file-systems)"},
+          {"key":  "8", "value":"AWS EC2, infrastructure as code (cloud-formation), load balancing, auditing"},
+          {"key":  "9", "value":"Unix infrastructure management"},
+          {"key":  "7", "value":"Linux application development (CLI, ncurses, GTK)"}          
+        ]
+      }
+
+    ] 
+  },
+  {
+    "type":"experience",
+    "title":"EXPERIENCE",
+    "articles": [
+      {
+        "date": {"from": "Dec 2022", "to": "MAY 2024"},
+        "heading": "Senior Engineer",
+        "subheading": "Regrow.ag (remote)",
+        "summary": "DATA ENGINEERING | SOFTWARE ENGINEERING",
+        "points": [
+          "re-designed, and developed the data-exchange interface, between our main product and the contract/document management system Docusign",
+          "Created Geo-spatial datasets tailored to support producers across the EU, USA, and Australia in managing their crop and farming practices efficiently using open source QGIS geo-spatial tool to perform spatial analysis.",
+          "Engaged in Python Software Engineering tasks, constructing FastAPI and Pydantic-based modules for storing Climate Data sourced from primary producers and third-party data providers. ",
+          "Led the refactor and re-architecture efforts for our core SaaS product, focusing on enhancing code quality and minimising defects. Introduced SonarCube's Complexity metrics to improve code maintainability.",
+          "Developed and implemented Geo-spatial algorithms and integrations with machine learning models in using Python, Fast API, Pydantic.",
+          "Authored internal Software Engineering guides to facilitate knowledge sharing and standardisation within the team."
+        ]
+      },
+      {
+        "date": {"from": "Nov 2021", "to": "Dec 2022"},
+        "heading": "Head of Technology",
+        "subheading": "RUBIX (Melbourne, Australia)",
+        "summary": "PEOPLE LEADER | DATA ENGINEER | SOFTWARE ENGINEER",
+        "points": [
+          "Budget Management: Successfully managed budgets exceeding $1million, including meticulous work forecasting to ensure efficient resource allocation (people, infrastructure and expertise).",
+          "Data Store: Established a 'Data Marketplace' using Shopify for the curated retail sale of Machine Learning ready datasets. Developed all Python-based APIs. Implemented a system where data is initially stored as CSV and dynamically converted to various requested formats such as CSV, JSON, Parquet and API payloads, and stored in S3. This system made extensive use of Pandas, GeoPandas, Numpy and Scikit-learn for statistical analysis (Normal distribution calculations).",
+          "Business Proposals: Authored comprehensive proposals for Data System builds, encompassing client requirement alignment, business and use case development, and end-to-end technology and resource cost analysis.",
+          "Management and Leadership: Oversaw day-to-day operations and work package assignments for a dynamically sized team, ranging from 4 to 15 members. Managed personnel costs, project funding allocations, and provided executive-level reporting. Notably, established and led the SaaS team and its product portfolio from inception.",
+          "Solution Architecture: Designed, developed, and managed  the delivery of ReefBuilder, an Environmental data capture and reporting platform. Developed the framework, for a Python code base, and DevOps methodology driven as an Infrastructure as Code (IaC) deployment system, using AWS CDK. Additionally, created a simplified JavaScript to Python interface via API gateway for Lambda or Apache-executed processes.",
+          "Data Engineering: Designed and implemented Python-based data extraction, transformation, and loading (ETL) pipelines across Lambda, ECS, and EC2 environments to facilitate periodic download, cleansing, loading, and storage of data. Built out a number of Databricks Proof-of-concept notebooks (SQL, R, Python, Markdown) to demonstrate various data analysis, prediction and transformation techniques."
+        ]
+      },
+      {
+        "date": {"from": "Apr 2019", "to": "Nov 2021"},
+        "heading": "Senior Engineer",
+        "subheading": "RUBIX (Consulting @ National Australia Bank)",
+        "summary": "DATA ENGINEER | CLOUD ENGINEER | SOFTWARE ENGINEER",
+        "points": [
+          "AWS Cloud Engineering: Led the design and development of Python / Jenkins / Airflow data extraction and transformation pipelines tailored for execution in Lambda + Elastic Container Store (ECS) or EC2 environments. Proficiently managed data transport and conversions, to support terabytes of data.",
+          "AWS Cloud DevOps: Engineered robust code generation tooling, facilitating the construction and deployment of micro-services using Elastic Container Services, Virtual Private Clouds (VPCs), and Virtual Machines (EC2) using Terraform and Cloud-formation.",
+          "Code Quality Control: Led the conversion of requirements and implemented code to effectively monitor and rectify real-time data quality issues. Established code quality metrics, ways-of-working and dashboard visualisations in Splunk.",
+          "Mentorship and Leadership: Development and delivery of comprehensive training sessions for new team members. Topics covered included the significance of, and methodologies for, conducting Peer Reviews, code readability, code maintainability, Test Driven Development, Domain Driven Development and bug minimisation though the use of tools like SonarCube.",
+          "Data engineering: Big-data pipelines: creation, management, and maintenance of data pipelines (ETL). Development of python functions, class and data structures to facilitate the acquisition, transformation, quality assurance and delivery of data from multiple legacy systems, (mainframes, AS400 etc) into S3 data-stores, using AWS Athena & Glue."
+        ]
+      },
+      {
+        "date": {"from": "Nov 2017", "to": "Mar 2019"},
+        "heading": "SENIOR ENGINEER (Observability)",
+        "subheading": "MYOB (Melbourne, Australia)",
+        "summary": "DATA ENGINEER | CLOUD ENGINEER | SOFTWARE ENGINEER | DEVOPS",
+        "points": [
+          "Created AWS Cloud-formation templates to build, manage, and monitor data pipelines, integrating with Kinesis, S3, and the Sumo Logic SaaS platform. These pipelines supported ETL processes handling up to 200GB of data.",
+          "Designed and delivered training courses on SumoLogic usage, focusing on data acquisition and Observability techniques, titled 'How to find your data (problems)'",
+          "Developed several applications utilising Python, within Docker containers, running on both Kubernetes and AWS Fargate, to bolster fraud detection capabilities. ",
+          "Offered DevOps expertise and infrastructure support to international teams, providing insights and guidance to enhance operational efficiency."
+        ]
+      },
+      {
+        "date": {"from": "Sep 2015", "to": "Oct 2017"},
+        "heading": "SENIOR ENGINEER",
+        "subheading": "TABCorp (Melbourne, Australia)",
+        "summary": "DATA ENGINEER | CLOUD ENGINEER | SOFTWARE ENGINEER | DEVOPS",
+        "points": [
+          "Engineered AWS Cloud-formation templates to facilitate the construction of an API gateway paired with Python Lambda ETL functions. These components seamlessly delivered risk and fraud detection data streams to the Salesforce SaaS platform.",
+          "Designed and implemented a secure and traceable credit card Payment gateway for sunbets.co.uk. The gateway integrated with anti-money laundering (AML) systems, ensuring robust transactional security. Within six months of operation, the gateway processed over £60 million with an error margin of less than £10,000.",
+          "Developed and maintained various features and fixes in PHP for the Luxbet.com.au gaming platform. These enhancements bolstered customer retention, ensured system stability, and facilitated the roll-out of new betting markets.",
+          "Leveraged Python & QGIS for geo-spatial data analysis to support retail teams in vendor payments, employing an innovative approach tailored for non-traditional venues."
+        ]
+      },
+      {
+        "date": {"from": "Aug 2014", "to": "Aug 2015"},
+        "heading": "Software Engineer",
+        "subheading": "SMS Global (Melbourne, Australia)",
+        "summary": "DATA ENGINEER | SOFTWARE ENGINEER",
+        "points": [
+          "Created PHP integrations linking the SMS delivery platform with various 3rd party REST APIs, such as Xero accounting and the Zapier.com platform.",
+          "Designed and implemented multiple Zapier 'zaps' to enable customers to seamlessly upload their Google contacts into our platform, send bulk messages using a Google Sheet, and receive reports from our system directly into Google Sheets.",
+          "Restructured a client's Linux, Apache, MySQL, PHP (LAMP) application into a multi-tier MVC pattern web application. Hosted on AWS, the redeveloped application incorporated SSL, virtual load balancers, multiple EC2 instances, a MySQL backend, and dynamically attached EBS volumes for enhanced scalability and performance."
+        ]
+      },
+      {
+        "date": {"from": "Jun 2013", "to": "Jul 2014"},
+        "heading": "TECHNOLOGY MANAGER",
+        "subheading": "Victorian Greens Party (Melbourne, Australia)",
+        "summary": "DATA MANAGER| SOFTWARE ENGINEER | CLOUD INFRASTRUCTURE ADMINISTRATION",
+        "points": [
+          "Engineered an ETL adaptor using PHP to seamlessly integrate the Nation-builder SaaS platform with the internal Drupal system of the Greens.",
+          "Administered Unix servers, overseeing tasks such as local and remote email server management, as well as implementing SPAM and anti-virus detection measures.",
+          "Oversaw the transition to the cloud, leading the migration of the Victorian office from an on-site email and shared files service to a hosted VPS. Managed the entire process to minimize costs and ensure backup services were in place."
+        ]
+      },
+      {
+        "date": {"from": "Mar 2013", "to": "May 2013"},
+        "heading": "ENGINEER",
+        "subheading": "Victorian Department of Primary Industries (contract)",
+        "summary": "GEO-SPATIAL DATA ANALYST | DATA ENGINEER | SOFTWARE ENGINEER ",
+        "points": [
+          "Implemented a new Geo-spatial user interface within the Exploration Licensing system, enabling users to visualise licensee locations through map views.",
+          "Revamped and translated Oracle stored procedures into PHP, streamlining the process of transforming Excel spreadsheets into Oracle tables.",
+          "Adapted MS-Windows specific code, originally utilising ODBC Microsoft SQL Server connections, to run on an Oracle with a Linux back-end.",
+          "Developed Python scripts and MySQL stored procedure ETL processes, validation, and bounds checking, while also performing linear, geo-spatial, and time-series statistical analysis.",
+          "Conducted analysis on geographic and satellite remote sensing datasets, generating geographic datasets, cartographic imagery, and figures for publication in journal articles."
+        ]
+      },
+      {
+        "date": {"from": "Sep 2012", "to": "Jan 2013"},
+        "heading": "DATA ANALYST",
+        "subheading": "James Cook University - Human Footprint Project (Cairns, Australia)",
+        "summary": "GEO-SPATIAL DATA ANALYSIS",
+        "points": [
+          "Researched, obtained, analysed, and processed geo-spatial datasets for projects focused on Human-Footprint and Human Influence indices.",
+          "Created Python-based plugins for QGIS to implement the supervisor's research algorithms."
+        ]
+      },
+      {
+        "date": {"from": "May 2011", "to": "Oct 2012"},
+        "heading": "Engineer",
+        "subheading": "James Cook University - eResearch (Cairns, Australia)",
+        "summary": "DATA ENGINEER | SOFTWARE ENGINEER | SCIENCE RESEARCH",
+        "points": [
+          "Embedded within the eResearch Department, I implemented AGILE and SDLC methodologies to architect and build a web application. Leveraging jQuery, Python, and MySQL, the application facilitated the ingestion and analysis of biological and environmental data, culminating in interactive visualisations of species ranges juxtaposed against diverse Climate Change scenarios, CliMAS: Climate Maps for Australian Species",
+          "Additionally, I developed an array of Python, PHP, Bash, and C++ components to interface with High Performance Compute clusters. These components executed computational and geo-statistical models driven by research, employing map-reduce techniques to parallelise execution and streamline payload management."
+        ]
+      },
+      {
+        "date": {"from": "Apr 2010", "to": "May 2011"},
+        "heading": "Principal investigator",
+        "subheading": "James Cook University - Hydrology/Ecology Research (Cairns, Australia)",
+        "summary": "SCIENCE RESEARCHER | DATA ENGINEER | HARDWARE + SOFTWARE ENGINEER",
+        "points": [
+          "Led a Queensland Cyber Infrastructure Foundation (QCIF) project as principal investigator to construct a 'Smart Water Sensor Network.', involving the development of a proof-of-concept system, primarily using off-the-shelf components complemented by custom-built code. The system was designed for deployment in remote locations to monitor a homogeneous array of sensors and transmit data via satellite link.",
+          "Designed and implemented a proof-of-concept sensor communication data exchange system for a range of commercial and in-house sensor platforms. Required the development of efficient python code to run on battery powered devices."
+        ],
+        "link": [
+          {
+            "heading": "Sap flow monitoring",
+            "image": "https://raw.githubusercontent.com/afakes/resume/master/images/SapFlowMonitoringTN.PNG",
+            "text": "Using Heat Field deformation to track sap flow inside living trees"
+          },
+          {
+            "heading": "Climate monitoring",
+            "image": "https://raw.githubusercontent.com/afakes/resume/master/images/ClimateMonitoringTN.JPG",
+            "text": "Climate monitoring stations in the field"
+          }
+        ]
+      },
+      {
+        "date": {"from": "Apr 2009", "to": "Apr 2010"},
+        "heading": "Science Researcher",
+        "subheading": "James Cook University - Hydrology/Ecology Research (Cairns, Australia)",
+        "summary": "SCIENCE RESEARCHER | DATA ENGINEER | HARDWARE + SOFTWARE ENGINEER",
+        "points": [
+          "Created a unified database to standardise Australian State groundwater readings, incorporating supplementary environmental data from various global sources including NASA, European Space Agency, and GRACE gravity anomaly data. This project necessitated the development of extensive code-bases utilising Linux, Python, and MySQL.",
+          "Conducted analysis on geographic and satellite remote sensing datasets to generate geographic datasets, cartographic imagery, and figures for publication in journal articles",
+          "Delivered a public lecture on XML titled 'eXciting Markup Language'.",
+          "Re-engineered C++ Artificial Neural Network code-base and data reader into Python."
+        ],
+        "link": [
+          "https://grace.jpl.nasa.gov/mission/grace/" 
+        ]
+      },
+      {
+        "date": {"from": "Sep 2006", "to": "Apr 2009"},
+        "heading": "Senior Developer",
+        "subheading": "CSIRO (Cairns, Australia)",
+        "summary": "SOFTWARE DEVELOPMENT | SCIENCE RESEARCH | GEO-SPATIAL DATA ANALYSIS",
+        "points": [
+          "Created 'The Landscapes Toolkit' a desktop application for MS-Windows using C# and web technologies such as HTML and CSS. This application, developed in C# .NET, supports the integration of models through a Lazy-load software pattern implementation.",
+          "Designed and implemented geo-spatial and environmental modelling tools for 'The Landscapes Toolkit' a Scientific Model Integration environment. These tools included Python plugins to enhance functionality."
+        ]
+      },
+      {
+        "date": {"from": "Apr 2004", "to": "Apr 2006"},
+        "heading": "Senior Developer",
+        "subheading": "Waste Service NSW (Sydney, Australia)",
+        "summary": "SOFTWARE DEVELOPER | REPORTING| INFRASTRUCTURE ADMINISTRATION",
+        "points": [
+          "Developed and revamped Crystal Reports, integrating them with .Net, Lotus Notes, and Microsoft Reporting Services.",
+          "Managed Lotus Notes Domino cluster email services administration, which encompassed spam and virus filtering, on Windows 2003 and Citrix servers.",
+          "Desktop support for 300+ users across 14 sites, including fault analysis, recording, and repair"
+        ]
+      },
+      {
+        "date": {"from": "Apr 2003", "to": "Apr 2004"},
+        "heading": "Senior Developer",
+        "subheading": "Salvation Army (Sydney, Australia)",
+        "summary": "SOFTWARE DEVELOPMENT | DATA MANAGEMENT",
+        "points": [
+          "Redesigned and redeveloped an existing multi-site Lotus Notes client application into a centralised web-browser application.",
+          "Designed a warehousing system to manage the specific physical item storage needs of the Army."
+        ]
+      },
+      {
+        "date": {"from": "Apr 2000", "to": "Apr 2003"},
+        "heading": "Senior Developer",
+        "subheading": "IBM Global Services (North Sydney, Australia)",
+        "summary": "DATA ENGINEER | SOFTWARE DEVELOPER | WEB DEVELOPMENT | FINANCIAL MODELLING",
+        "points": [
+          "Designed and implemented a web-based Investment Management application, replacing numerous complex financial spreadsheets, while ensuring funds-management quality assurance.",
+          "Engineered a back-end system for the Investment Management application to calculate multiple future predictions of managed funds, leveraging actuarial algorithms, and expert opinions.",
+          "Worked closely with third-party contractors to develop a Lotus Notes password encryption transfer agent, ensuring a seamless user transition to Oracle.",
+          "Collaborated with MLC and IBM as a member of the Business Continuity team to devise and execute disaster recovery plans and procedures for mlc.com.au.",
+          "Developed a Lotus Notes configuration management and deployment tool for version control, streamlining deployment processes."
+        ]
+      }   
+   ]
+  },
+  {
+    "type": "academic",
+    "title": "CO-AUTHORED JOURNAL ARTICLES",
+    "articles": [
+      { "points": ["Leblanc, M. et.al. (2011), Groundwater change in the Murray basin from long-term in situ monitoring and GRACE estimates Climate change effects on groundwater resources"] },
+      { "points": ["Leblanc, M. et.al. (2009), Basin-scale, integrated observations of the early 21st century multi-year drought in southeast Australia, Water Resour. Res., 45"] },
+      { "points": ["Bohnet, I. et.al. (2008), 'An integrated modelling framework to explore land use change scenarios in collaboration with communities and end-users', in International Conference Impact Assessment of Land Use Changes, Berlin, Germany."] }
+    ]
+  }
+
+]
