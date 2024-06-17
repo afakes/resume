@@ -8,9 +8,10 @@
   {
     "type": "contact",
     "title": "contact",
+    "image": "https://adamfakes.com/images/Sight.JPG",
     "articles": [
       {
-        "image": "https://adamfakes.com/images/Sight.JPG",
+        
         "key_value": [
           {"key":"email",       "value":"adam@datavi.co" },
           {"key":"phone",       "value":"0401-302243" },
