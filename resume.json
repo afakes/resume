@@ -3,13 +3,14 @@
     "type": "page",
     "heading": "Adam Fakes",
     "summary": "Data Engineering | Data Science | Software Engineering | Geospatial analysis",
-    "image":   "https://avatars0.githubusercontent.com/u/1169102?v=4"
+    "image":   "https://adamfakes.com/images/AdamFakes-hard-colour-li.jpg"
   },
   {
     "type": "contact",
     "title": "contact",
     "articles": [
       {
+        "image": "https://adamfakes.com/images/Sight.JPG",
         "key_value": [
           {"key":"email",       "value":"adam@datavi.co" },
           {"key":"phone",       "value":"0401-302243" },
