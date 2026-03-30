@@ -12,14 +12,15 @@
       {
         
         "key_value": [
-          {"key":"email",       "value":"adam@datavi.co" },
-          {"key":"phone",       "value":"0401-302243" },
-          {"key":"physical",    "value":"Melbourne, Victoria, Australia" },
-          {"key":"LinkedIn",    "value":"https://www.linkedin.com/in/adamfakes" },
-          {"key":"github",      "value":"https://github.com/afakes/portfolio" },
-          {"key":"portfolio",   "value":"https://adamfakes.my.canva.site/" },
-          {"key":"website",     "value":"https://adamfakes.com" },
-          {"key":"google meet", "value":"https://meet.google.com/omv-aizq-vrj" }
+          {"key":"email",         "value":"adam@datavi.co" },
+          {"key":"phone",         "value":"0401-302243" },
+          {"key":"physical",      "value":"Melbourne, Victoria, Australia" },
+          {"key":"LinkedIn",      "value":"https://www.linkedin.com/in/adamfakes" },
+          {"key":"github",        "value":"https://github.com/afakes/portfolio" },
+          {"key":"portfolio",     "value":"https://adamfakes.my.canva.site/" },
+          {"key":"website",       "value":"https://adamfakes.com" },
+          {"key":"google meet",   "value":"https://meet.google.com/omv-aizq-vrj" }
+          {"key":"fun and games", "value":"https://adamfakes.com/menu/index.html" }
         ]
       }
     ]
